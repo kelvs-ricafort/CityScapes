@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var query: String = ""
+    var service = DataService()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HStack {
+            TextField("What are you looking for?", text: $query)
+            Button {
+                
+            } label: {
+                Image(systemName: "magnifyingglass")
+                
+            }
         }
         .padding()
+        .task {
+            await service.businessSearch()
+        }
     }
 }
 

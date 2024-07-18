@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6745C322C4813300057E5CC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6745C312C4813300057E5CC /* DataService.swift */; };
 		B6FF86DA2C47B28E002961C9 /* CityScapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF86D92C47B28E002961C9 /* CityScapesApp.swift */; };
 		B6FF86DC2C47B28E002961C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF86DB2C47B28E002961C9 /* ContentView.swift */; };
 		B6FF86DE2C47B29B002961C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FF86DD2C47B29B002961C9 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6745C312C4813300057E5CC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B6FF86D62C47B28E002961C9 /* CityScapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityScapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FF86D92C47B28E002961C9 /* CityScapesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityScapesApp.swift; sourceTree = "<group>"; };
 		B6FF86DB2C47B28E002961C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6745C2E2C4812F30057E5CC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B6745C312C4813300057E5CC /* DataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		B6FF86CD2C47B28E002961C9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 				B6FF86E82C47BEF3002961C9 /* Info.plist */,
 				B6FF86D92C47B28E002961C9 /* CityScapesApp.swift */,
 				B6FF86DB2C47B28E002961C9 /* ContentView.swift */,
+				B6745C2E2C4812F30057E5CC /* Service */,
 				B6FF86E72C47BEBE002961C9 /* Config.xcconfig */,
 				B6FF86DD2C47B29B002961C9 /* Assets.xcassets */,
 				B6FF86DF2C47B29B002961C9 /* Preview Content */,
@@ -141,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6745C322C4813300057E5CC /* DataService.swift in Sources */,
 				B6FF86DC2C47B28E002961C9 /* ContentView.swift in Sources */,
 				B6FF86DA2C47B28E002961C9 /* CityScapesApp.swift in Sources */,
 			);

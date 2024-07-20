@@ -87,4 +87,5 @@ struct BusinessDetailView: View {
 
 #Preview {
     BusinessDetailView()
+        .environment(BusinessModel())
 }

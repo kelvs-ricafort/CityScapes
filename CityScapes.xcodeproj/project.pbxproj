@@ -11,6 +11,8 @@
 		B68DF85D2C4A46980070F453 /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DF85C2C4A46980070F453 /* TextHelper.swift */; };
 		B68DF85F2C4A47430070F453 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DF85E2C4A47430070F453 /* ImageHelper.swift */; };
 		B68DF8612C4A57DD0070F453 /* BusinessDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DF8602C4A57DD0070F453 /* BusinessDetailView.swift */; };
+		B6A9653C2C4E50F40093B280 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A9653B2C4E50F40093B280 /* OnboardingView.swift */; };
+		B6A9653E2C4E57A30093B280 /* OnboardingViewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A9653D2C4E57A30093B280 /* OnboardingViewDetails.swift */; };
 		B6C3E2802C4B9896002A3ADA /* BusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3E27F2C4B9896002A3ADA /* BusinessModel.swift */; };
 		B6C3E2832C4BA07B002A3ADA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3E2822C4BA07B002A3ADA /* MapView.swift */; };
 		B6C3E2852C4BA14B002A3ADA /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3E2842C4BA14B002A3ADA /* ListView.swift */; };
@@ -31,6 +33,8 @@
 		B68DF85C2C4A46980070F453 /* TextHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHelper.swift; sourceTree = "<group>"; };
 		B68DF85E2C4A47430070F453 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		B68DF8602C4A57DD0070F453 /* BusinessDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailView.swift; sourceTree = "<group>"; };
+		B6A9653B2C4E50F40093B280 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B6A9653D2C4E57A30093B280 /* OnboardingViewDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewDetails.swift; sourceTree = "<group>"; };
 		B6C3E27F2C4B9896002A3ADA /* BusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessModel.swift; sourceTree = "<group>"; };
 		B6C3E2822C4BA07B002A3ADA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B6C3E2842C4BA14B002A3ADA /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		B6B2409C2C4E3BF100BFE989 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B6A9653B2C4E50F40093B280 /* OnboardingView.swift */,
+				B6A9653D2C4E57A30093B280 /* OnboardingViewDetails.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		B6C3E27E2C4B9838002A3ADA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +101,7 @@
 		B6C3E2812C4B9F70002A3ADA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B6B2409C2C4E3BF100BFE989 /* Onboarding */,
 				B6FF86DB2C47B28E002961C9 /* HomeView.swift */,
 				B68DF8602C4A57DD0070F453 /* BusinessDetailView.swift */,
 				B6C3E2822C4BA07B002A3ADA /* MapView.swift */,
@@ -220,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A9653E2C4E57A30093B280 /* OnboardingViewDetails.swift in Sources */,
 				B6745C322C4813300057E5CC /* DataService.swift in Sources */,
 				B68DF8612C4A57DD0070F453 /* BusinessDetailView.swift in Sources */,
 				B6C3E2852C4BA14B002A3ADA /* ListView.swift in Sources */,
@@ -233,6 +248,7 @@
 				B6FF86DA2C47B28E002961C9 /* CityScapesApp.swift in Sources */,
 				B6D6B2452C48F85D00E7493F /* Business.swift in Sources */,
 				B6D6B2412C48F77C00E7493F /* Coordinate.swift in Sources */,
+				B6A9653C2C4E50F40093B280 /* OnboardingView.swift in Sources */,
 				B6D6B2432C48F80F00E7493F /* Category.swift in Sources */,
 				B68DF85F2C4A47430070F453 /* ImageHelper.swift in Sources */,
 			);

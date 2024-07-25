@@ -23,6 +23,12 @@ struct CityScapes: App {
                     OnboardingView()
                         .environment(model)
                 }
+                .onAppear {
+                    // If no onboarding is needeed, still get location
+                    if needsOnboarding == false {
+                        model.getUserLocation()
+                    }
+                }
         }
     }
 }

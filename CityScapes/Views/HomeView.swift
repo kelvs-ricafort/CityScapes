@@ -109,9 +109,6 @@ struct HomeView: View {
             }
             
         }
-        .onAppear {
-            model.getBusinesses(query: nil, options: nil, category: nil)
-        }
         .sheet(item: $model.selectedBusiness) { item in
             BusinessDetailView()
         }
